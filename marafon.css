@@ -1,0 +1,34 @@
+
+
+:root {
+    --base:#FFFF00;
+    --spacing: 40px;
+    --blur: 10px;
+    --mp: 50px
+}
+
+img {
+    margin: var(--mp);
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur))
+
+}
+
+.hl {
+    color: var(--base);
+}
+
+label,h2 {
+    padding-left: var(--mp);
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    font-family: "sans-serif";
+    color: #b3cbf5;
+}
+
+h2 {
+    width: 670px;
+    text-align: center;
+}
